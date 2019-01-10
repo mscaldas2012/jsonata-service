@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  jsonata:
+    image: imagehub.cdc.gov:5989/edh/jsonata-rest
+    container_name: jsonata
+    ports:
+      - 10005:8081

@@ -1,0 +1,1459 @@
+swagger: '2.0'
+paths:
+  /api/inputJson:
+    post:
+      summary: /api/inputJson
+      consumes:
+        - application/json
+      parameters: []
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: inputs the json to be processed by jsonata.
+          schema:
+            type: object
+            properties:
+              Pat2:
+                type: string
+                example: ''
+              CULTURE:
+                type: number
+                example: 2
+              PersonID2:
+                type: string
+                example: 010000018
+              SpecSrce:
+                type: string
+                example: STOOL
+              CultureStatus:
+                type: string
+                example: CX+
+              STX:
+                type: string
+                example: ''
+              DISCORDANT:
+                type: string
+                example: ''
+              SEROTYPE:
+                type: string
+                example: SONNEI
+              SEROTYPESUMMARY:
+                type: string
+                example: SONNEI
+              Age:
+                type: number
+                example: 41.6235
+              AgClinic:
+                type: string
+                example: NOT TESTED
+              AgClinicTestType:
+                type: string
+                example: ''
+              AgeYr:
+                type: number
+                example: 51
+              AgSphl:
+                type: string
+                example: NOT TESTED
+              AgSphlTestType:
+                type: string
+                example: ''
+              AR_antacid_any:
+                type: string
+                example: 'YES'
+              AR_antacid_any_1:
+                type: string
+                example: ROLAIDS
+              AR_antacid_any_2:
+                type: string
+                example: ''
+              AR_antacid_any_3:
+                type: string
+                example: ''
+              AR_antibiotic_use:
+                type: string
+                example: 'NO'
+              AR_antibiotic_use_1:
+                type: string
+                example: ''
+              AR_antibiotic_use_2:
+                type: string
+                example: ''
+              AR_antibiotic_use_3:
+                type: string
+                example: ''
+              AR_antibiotic_use_4:
+                type: string
+                example: ''
+              AR_antibiotic_use_5:
+                type: string
+                example: ''
+              AR_antibiotic_use_6:
+                type: string
+                example: ''
+              AR_antibiotic_use_7:
+                type: string
+                example: ''
+              AR_antibiotic_use_8:
+                type: string
+                example: ''
+              AR_antibiotic_use30:
+                type: string
+                example: 'NO'
+              AR_antibiotic_use30_1:
+                type: string
+                example: ''
+              AR_antibiotic_use30_2:
+                type: string
+                example: ''
+              AR_antibiotic_use30_3:
+                type: string
+                example: ''
+              AR_antibiotic_use30_4:
+                type: string
+                example: ''
+              AR_antibiotic_use30_5:
+                type: string
+                example: ''
+              AR_antibiotic_use30_6:
+                type: string
+                example: ''
+              AR_antibiotic_use30_7:
+                type: string
+                example: ''
+              AR_antibiotic_use30_8:
+                type: string
+                example: ''
+              AR_comorb_abdominal:
+                type: string
+                example: 'NO'
+              AR_comorb_cancer:
+                type: string
+                example: 'NO'
+              AR_comorb_diabetes:
+                type: string
+                example: 'NO'
+              Ar_Diet_veal:
+                type: string
+                example: ''
+              AR_durationillness:
+                type: string
+                example: ''
+              AR_HHtrav6mo:
+                type: string
+                example: 'NO'
+              AR_HHtrav6mo_country:
+                type: string
+                example: ''
+              AR_hosp_icu:
+                type: string
+                example: ''
+              AR_probiotic_use30:
+                type: string
+                example: 'NO'
+              AR_travel6mo:
+                type: string
+                example: 'NO'
+              AR_travel6mo_country:
+                type: string
+                example: ''
+              Audit:
+                type: string
+                example: 'NO'
+              BioID:
+                type: string
+                example: 'YES'
+              BloodyDiarr:
+                type: string
+                example: 'YES'
+              CEA_Beef:
+                type: string
+                example: ''
+              CEA_Beef_grnd:
+                type: string
+                example: ''
+              CEA_Beef_out:
+                type: string
+                example: ''
+              CEA_Beef_unckgrnd:
+                type: string
+                example: ''
+              CEA_Berries:
+                type: string
+                example: ''
+              CEA_Bird:
+                type: string
+                example: ''
+              CEA_Cantaloupe:
+                type: string
+                example: ''
+              CEA_Cat:
+                type: string
+                example: ''
+              CEA_Chicken:
+                type: string
+                example: ''
+              CEA_Chx_fresh:
+                type: string
+                example: ''
+              CEA_Chx_frozen:
+                type: string
+                example: ''
+              CEA_Chx_grnd:
+                type: string
+                example: ''
+              CEA_Chx_out:
+                type: string
+                example: ''
+              CEA_Dairy:
+                type: string
+                example: ''
+              CEA_Dog:
+                type: string
+                example: ''
+              CEA_Eggs:
+                type: string
+                example: ''
+              CEA_Eggs_out:
+                type: string
+                example: ''
+              CEA_Eggs_unck:
+                type: string
+                example: ''
+              CEA_Farm_ranch:
+                type: string
+                example: ''
+              CEA_Fish:
+                type: string
+                example: ''
+              CEA_Fish_unck:
+                type: string
+                example: ''
+              CEA_Handle_raw_meat:
+                type: string
+                example: ''
+              CEA_Handle_raw_poultry:
+                type: string
+                example: ''
+              CEA_Handle_raw_seafood:
+                type: string
+                example: ''
+              CEA_Herbs:
+                type: string
+                example: ''
+              CEA_Lamb:
+                type: string
+                example: ''
+              CEA_Lettuce:
+                type: string
+                example: ''
+              CEA_Live_poultry:
+                type: string
+                example: ''
+              CEA_Liver_pate:
+                type: string
+                example: ''
+              CEA_Liver_raw:
+                type: string
+                example: ''
+              CEA_Milk_pasteurized:
+                type: string
+                example: ''
+              CEA_Milk_raw:
+                type: string
+                example: ''
+              CEA_Odairy_raw:
+                type: string
+                example: ''
+              CEA_Ountreat_water:
+                type: string
+                example: 'NO'
+              CEA_Pig:
+                type: string
+                example: ''
+              CEA_Pocketpet:
+                type: string
+                example: ''
+              CEA_Pork:
+                type: string
+                example: ''
+              CEA_Raw_cider:
+                type: string
+                example: ''
+              CEA_Reptile_amphib:
+                type: string
+                example: ''
+              CEA_Ruminants:
+                type: string
+                example: ''
+              CEA_Seafd:
+                type: string
+                example: ''
+              CEA_Sampled:
+                type: string
+                example: ''
+              CEA_Seafd_unck:
+                type: string
+                example: ''
+              CEA_Sewer_water:
+                type: string
+                example: 'NO'
+              CEA_Sick_contact:
+                type: string
+                example: ''
+              CEA_Sick_pet:
+                type: string
+                example: ''
+              CEA_Softcheese:
+                type: string
+                example: ''
+              CEA_Softcheese_raw:
+                type: string
+                example: ''
+              CEA_Spinach:
+                type: string
+                example: ''
+              CEA_Sprouts:
+                type: string
+                example: ''
+              CEA_Swim_treat:
+                type: string
+                example: 'NO'
+              CEA_Swim_untreat:
+                type: string
+                example: 'NO'
+              CEA_Tomatoes:
+                type: string
+                example: ''
+              CEA_Turkey:
+                type: string
+                example: ''
+              CEA_Turkey_grnd:
+                type: string
+                example: ''
+              CEA_Turkey_out:
+                type: string
+                example: ''
+              CEA_Watermelon:
+                type: string
+                example: ''
+              CEA_Well_water:
+                type: string
+                example: ''
+              County:
+                type: string
+                example: SAN FRANCISCO
+              CultCdc:
+                type: string
+                example: ''
+              CultClinic:
+                type: string
+                example: ''
+              CultSphl:
+                type: string
+                example: ''
+              Diarrhea:
+                type: string
+                example: 'YES'
+              DOB:
+                type: string
+                example: '1976-11-20'
+              DtEntered:
+                type: string
+                example: '2018-08-30'
+              DtOnset:
+                type: string
+                example: '2018-07-01'
+              DtRptComp:
+                type: string
+                example: '2018-09-25'
+              DtSpec:
+                type: string
+                example: '2018-07-06'
+              DxO157:
+                type: string
+                example: ''
+              DxO157TestType:
+                type: string
+                example: ''
+              EforsNum:
+                type: string
+                example: ''
+              Ethnicity:
+                type: string
+                example: H
+              Fever:
+                type: string
+                example: 'YES'
+              Hospital:
+                type: string
+                example: 'NO'
+              HospTrans:
+                type: string
+                example: ''
+              HUS:
+                type: string
+                example: ''
+              Immigrate:
+                type: string
+                example: 'NO'
+              Interview:
+                type: string
+                example: 'YES'
+              LabName:
+                type: string
+                example: SF059
+              LabNum:
+                type: string
+                example: ''
+              LocalID:
+                type: string
+                example: ''
+              OtherCDCTest:
+                type: string
+                example: NOT TESTED
+              OtherClinicTest:
+                type: string
+                example: NOT TESTED
+              OtherClinicTestType:
+                type: string
+                example: ''
+              OtherSphlTest:
+                type: string
+                example: NOT TESTED
+              OtherSphlTestType:
+                type: string
+                example: ''
+              Outbreak:
+                type: string
+                example: 'NO'
+              OutbrkStID:
+                type: string
+                example: ''
+              OutbrkType:
+                type: string
+                example: ''
+              Outcome:
+                type: string
+                example: ALIVE
+              OutFetal:
+                type: string
+                example: ''
+              Pathogen:
+                type: string
+                example: SHIGELLA
+              PatID:
+                type: string
+                example: 010000018
+              PcrCDC:
+                type: string
+                example: NOT TESTED
+              PcrClinic:
+                type: string
+                example: NOT TESTED
+              PCRClinicTestType:
+                type: string
+                example: ''
+              PcrSphl:
+                type: string
+                example: NOT TESTED
+              PcrSphlTestType:
+                type: string
+                example: ''
+              PersonID:
+                type: string
+                example: 010000018
+              Pregnant:
+                type: string
+                example: ''
+              Race:
+                type: string
+                example: O
+              ResultID:
+                type: string
+                example: 010000018-2-1
+              RptComp:
+                type: string
+                example: 'YES'
+              SalGroup:
+                type: string
+                example: ''
+              SentCDC:
+                type: string
+                example: 'NO'
+              SeroSite:
+                type: string
+                example: SONNEI
+              Sex:
+                type: string
+                example: M
+              SiteID:
+                type: string
+                example: CDA203
+              SLabsID:
+                type: string
+                example: M18F01789
+              SpeciesClinic:
+                type: string
+                example: ''
+              SpeciesSphl:
+                type: string
+                example: ''
+              SpecSite:
+                type: string
+                example: STOOL
+              State:
+                type: string
+                example: CA
+              StecH7:
+                type: string
+                example: ''
+              StecHAg:
+                type: string
+                example: ''
+              StecNM:
+                type: string
+                example: ''
+              StecO157:
+                type: string
+                example: ''
+              StecOAg:
+                type: string
+                example: ''
+              StecStx:
+                type: string
+                example: ''
+              StLabRcvd:
+                type: string
+                example: 'YES'
+              TravelDest:
+                type: string
+                example: ''
+              TravelInt:
+                type: string
+                example: 'NO'
+              WGS_ID:
+                type: string
+                example: ''
+              Zipcode:
+                type: string
+                example: 94102-
+              Except_ID:
+                type: number
+                example: 7035
+              Year:
+                type: number
+                example: 2018
+              Month:
+                type: number
+                example: 7
+              P:
+                type: string
+                example: SHIGELLA
+              BIO:
+                type: string
+                example: 'YES'
+              CX:
+                type: string
+                example: 'YES'
+              CIDT:
+                type: string
+                example: ''
+              CLINIC:
+                type: string
+                example: ''
+              PHL:
+                type: string
+                example: ''
+              CDC:
+                type: string
+                example: ''
+              FNcase:
+                type: string
+                example: CONFIRMED
+              PPV:
+                type: string
+                example: ''
+              TESTTYPE:
+                type: string
+                example: CX+
+              CDCCULT:
+                type: string
+                example: 'YES'
+              CULTPRIORITY:
+                type: number
+                example: 1
+              SubSpec:
+                type: string
+                example: SONNEI
+              Priority:
+                type: number
+                example: 6
+              CODE:
+                type: number
+                example: 1
+              BIO_CODE:
+                type: number
+                example: 1
+              STRCODE:
+                type: number
+                example: 1
+              H_SPEC:
+                type: string
+                example: '2018-07-06'
+              H_SPEC2:
+                type: string
+                example: '2018-07-06'
+              GROUP:
+                type: number
+                example: 1522
+              Tag:
+                type: number
+                example: 0
+              Status:
+                type: string
+                example: CASE
+              H_SPEC1:
+                type: string
+                example: '2018-07-06'
+              NC_Tag:
+                type: number
+                example: 1
+              PID1:
+                type: string
+                example: ''
+              PID2:
+                type: string
+                example: ''
+              NAME2:
+                type: string
+                example: ''
+              NC_Status:
+                type: string
+                example: CASE
+              H_SPEC3:
+                type: string
+                example: '2018-07-06'
+              H_SPEC4:
+                type: string
+                example: '2018-07-06'
+              H_PATH1:
+                type: string
+                example: SHIGELLA
+  /api/jsonata:
+    post:
+      summary: /api/jsonata
+      consumes:
+        - application/json
+      parameters: 
+        - in: path
+          name: jsonataid
+          type: string
+          required: true
+          description: a guid/name to identify the transform.
+        - in: path
+          name: jsonatadesc
+          type: string
+          required: true
+          description: a description of the transform.
+      produces:
+        - text/html
+      responses:
+        '200':
+          description: input jsonata transform file and adds it to list.
+          schema:
+            type: string
+            example: "$merge \r\n( [$,\r\n\r\n{\r\n              \"CASEID\":(\r\n              $CASEID:=  function ($a, $b, $c,$d, $e, $f, $g, $h, $i, $j)\r\n                      { $a &'-'& $b &'-'& $c &'-'& $d &'-'& $e &'-'& $f &'-'& $g &'-'& $h &'-'& $i &'-'& $j } ;\r\n              $CASEID($.State,$.Pathogen,$.PersonID,$.DOB,$.Sex,$.SubSpec,$.CULTPRIORITY,$.Priority,$.DtSpec,$.STRCODE);\r\n                       ),\r\n                       \"test\": \"testtestFoo!\",\r\n            \"AgeGroup\":($.AgeYr < 5 ? \"1-4\" : \r\n                       ($.AgeYr < 10 ? \"5-9\" : \r\n                       ($.AgeYr < 20 ? \"10-19\" :\r\n                       ($.AgeYr < 30 ? \"20-29\" :\r\n                       ($.AgeYr < 40 ? \"30-39\" :\r\n                       ($.AgeYr < 50 ? \"40-49\" :\r\n                       ($.AgeYr < 60 ? \"50-59\" :\r\n                       ($.AgeYr < 70 ? \"60-69\" :\r\n                       ($.AgeYr < 80 ? \"70-79\" :\r\n                       ($.AgeYr >= 80 ? \"80+\" :\r\n                        \"Unknown\"\r\n                        )))))))))),\r\n                        \r\n            \"AgeGroupSort\":\r\n                 (\r\n                 $sort:= \r\n                   ($.AgeYr < 5 ? \"1-4\" : \r\n                       ($.AgeYr < 10 ? \"5-9\" : \r\n                       ($.AgeYr < 20 ? \"10-19\" :\r\n                       ($.AgeYr < 30 ? \"20-29\" :\r\n                       ($.AgeYr < 40 ? \"30-39\" :\r\n                       ($.AgeYr < 50 ? \"40-49\" :\r\n                       ($.AgeYr < 60 ? \"50-59\" :\r\n                       ($.AgeYr < 70 ? \"60-69\" :\r\n                       ($.AgeYr < 80 ? \"70-79\" :\r\n                       ($.AgeYr >= 80 ? \"80+\" :\r\n                        \"Unknown\"\r\n                        )))))))))\r\n                   );     \r\n            $sort = \"1-4\" ? 1 : $sort= \"5-9\" ? 2 : $sort= \"10-19\" ?  3 : $sort= \"20-29\" ? 4 : $sort = \"30-39\" ? 5 :\r\n            $sort = \"40-49\" ? 6 : $sort = \"50-59\" ? 7 : $sort = \"60-69\" ? 8 : $sort = \"70-79\" ? 9 : $sort = \"80+\" ? 10 :\r\n            100\r\n                  ),\r\n                  \r\n          \"meta data\": \r\n                            {\r\n                      \"pipeline\": \"eip-legacy-monthly\",\r\n                      \"program\": \"fdd-legacy\",\r\n                      \"Xform-Profile-Name\": \"otm2-fddProfile\",\r\n                      \"Xform-Profile-Version\": \"0.01\",\r\n                      \"Security Group\": $.State & '-'& \"To be determined\",\r\n                      \"fileDateTime\": \"2018-11-30T16:13:33.593Z\",\r\n                      \"fileType\":\"What goes here?\"\r\n                            }\r\n            \r\n  }] )\r\n  \r\n  \r\n  "
+  /api/jsonata/list:
+    get:
+      summary: /api/jsonata/list
+      consumes:
+        - application/json
+      parameters: []
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: provides a list of the tranforms that are available to use.
+          schema:
+            type: object
+            properties:
+              '1':
+                type: object
+                properties:
+                  key:
+                    type: number
+                    example: 0
+                  jsonataid:
+                    type: string
+                    example: '1111111111111'
+                  jsonatadesc:
+                    type: string
+                    example: default
+              '3':
+                type: object
+                properties:
+                  key:
+                    type: number
+                    example: 0
+                  jsonataid:
+                    type: string
+                    example: F478C0B5-0481-4391-9946-258D34A3EC6A
+                  jsonatadesc:
+                    type: string
+                    example: test 224444444
+              '4':
+                type: object
+                properties:
+                  key:
+                    type: number
+                    example: 1
+                  jsonataid:
+                    type: string
+                    example: F478C0B5-0481-4391-9946-258D34A3EC6A
+                  jsonatadesc:
+                    type: string
+                    example: test 224444444
+              '5':
+                type: object
+                properties:
+                  key:
+                    type: number
+                    example: 2
+                  jsonataid:
+                    type: string
+                    example: F478C0B5-0481-4391-9946-258D34A3EC6A
+                  jsonatadesc:
+                    type: string
+                    example: test 224444444
+              Jsosonata:
+                type: string
+                example: list
+  /api/result:
+    get:
+      summary: /api/result
+      consumes:
+        - application/json
+      parameters: 
+        - in: path
+          name: jsonataidnum
+          type: integer
+          required: true
+          description: Numeric ID of the user to get.
+
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: provides the tranformed json with the "jsonataidnum" provided in the path.
+          schema:
+            type: object
+            properties:
+              Pat2:
+                type: string
+                example: ''
+              CULTURE:
+                type: number
+                example: 2
+              PersonID2:
+                type: string
+                example: 010000018
+              SpecSrce:
+                type: string
+                example: STOOL
+              CultureStatus:
+                type: string
+                example: CX+
+              STX:
+                type: string
+                example: ''
+              DISCORDANT:
+                type: string
+                example: ''
+              SEROTYPE:
+                type: string
+                example: SONNEI
+              SEROTYPESUMMARY:
+                type: string
+                example: SONNEI
+              Age:
+                type: number
+                example: 41.6235
+              AgClinic:
+                type: string
+                example: NOT TESTED
+              AgClinicTestType:
+                type: string
+                example: ''
+              AgeYr:
+                type: number
+                example: 51
+              AgSphl:
+                type: string
+                example: NOT TESTED
+              AgSphlTestType:
+                type: string
+                example: ''
+              AR_antacid_any:
+                type: string
+                example: 'YES'
+              AR_antacid_any_1:
+                type: string
+                example: ROLAIDS
+              AR_antacid_any_2:
+                type: string
+                example: ''
+              AR_antacid_any_3:
+                type: string
+                example: ''
+              AR_antibiotic_use:
+                type: string
+                example: 'NO'
+              AR_antibiotic_use_1:
+                type: string
+                example: ''
+              AR_antibiotic_use_2:
+                type: string
+                example: ''
+              AR_antibiotic_use_3:
+                type: string
+                example: ''
+              AR_antibiotic_use_4:
+                type: string
+                example: ''
+              AR_antibiotic_use_5:
+                type: string
+                example: ''
+              AR_antibiotic_use_6:
+                type: string
+                example: ''
+              AR_antibiotic_use_7:
+                type: string
+                example: ''
+              AR_antibiotic_use_8:
+                type: string
+                example: ''
+              AR_antibiotic_use30:
+                type: string
+                example: 'NO'
+              AR_antibiotic_use30_1:
+                type: string
+                example: ''
+              AR_antibiotic_use30_2:
+                type: string
+                example: ''
+              AR_antibiotic_use30_3:
+                type: string
+                example: ''
+              AR_antibiotic_use30_4:
+                type: string
+                example: ''
+              AR_antibiotic_use30_5:
+                type: string
+                example: ''
+              AR_antibiotic_use30_6:
+                type: string
+                example: ''
+              AR_antibiotic_use30_7:
+                type: string
+                example: ''
+              AR_antibiotic_use30_8:
+                type: string
+                example: ''
+              AR_comorb_abdominal:
+                type: string
+                example: 'NO'
+              AR_comorb_cancer:
+                type: string
+                example: 'NO'
+              AR_comorb_diabetes:
+                type: string
+                example: 'NO'
+              Ar_Diet_veal:
+                type: string
+                example: ''
+              AR_durationillness:
+                type: string
+                example: ''
+              AR_HHtrav6mo:
+                type: string
+                example: 'NO'
+              AR_HHtrav6mo_country:
+                type: string
+                example: ''
+              AR_hosp_icu:
+                type: string
+                example: ''
+              AR_probiotic_use30:
+                type: string
+                example: 'NO'
+              AR_travel6mo:
+                type: string
+                example: 'NO'
+              AR_travel6mo_country:
+                type: string
+                example: ''
+              Audit:
+                type: string
+                example: 'NO'
+              BioID:
+                type: string
+                example: 'YES'
+              BloodyDiarr:
+                type: string
+                example: 'YES'
+              CEA_Beef:
+                type: string
+                example: ''
+              CEA_Beef_grnd:
+                type: string
+                example: ''
+              CEA_Beef_out:
+                type: string
+                example: ''
+              CEA_Beef_unckgrnd:
+                type: string
+                example: ''
+              CEA_Berries:
+                type: string
+                example: ''
+              CEA_Bird:
+                type: string
+                example: ''
+              CEA_Cantaloupe:
+                type: string
+                example: ''
+              CEA_Cat:
+                type: string
+                example: ''
+              CEA_Chicken:
+                type: string
+                example: ''
+              CEA_Chx_fresh:
+                type: string
+                example: ''
+              CEA_Chx_frozen:
+                type: string
+                example: ''
+              CEA_Chx_grnd:
+                type: string
+                example: ''
+              CEA_Chx_out:
+                type: string
+                example: ''
+              CEA_Dairy:
+                type: string
+                example: ''
+              CEA_Dog:
+                type: string
+                example: ''
+              CEA_Eggs:
+                type: string
+                example: ''
+              CEA_Eggs_out:
+                type: string
+                example: ''
+              CEA_Eggs_unck:
+                type: string
+                example: ''
+              CEA_Farm_ranch:
+                type: string
+                example: ''
+              CEA_Fish:
+                type: string
+                example: ''
+              CEA_Fish_unck:
+                type: string
+                example: ''
+              CEA_Handle_raw_meat:
+                type: string
+                example: ''
+              CEA_Handle_raw_poultry:
+                type: string
+                example: ''
+              CEA_Handle_raw_seafood:
+                type: string
+                example: ''
+              CEA_Herbs:
+                type: string
+                example: ''
+              CEA_Lamb:
+                type: string
+                example: ''
+              CEA_Lettuce:
+                type: string
+                example: ''
+              CEA_Live_poultry:
+                type: string
+                example: ''
+              CEA_Liver_pate:
+                type: string
+                example: ''
+              CEA_Liver_raw:
+                type: string
+                example: ''
+              CEA_Milk_pasteurized:
+                type: string
+                example: ''
+              CEA_Milk_raw:
+                type: string
+                example: ''
+              CEA_Odairy_raw:
+                type: string
+                example: ''
+              CEA_Ountreat_water:
+                type: string
+                example: 'NO'
+              CEA_Pig:
+                type: string
+                example: ''
+              CEA_Pocketpet:
+                type: string
+                example: ''
+              CEA_Pork:
+                type: string
+                example: ''
+              CEA_Raw_cider:
+                type: string
+                example: ''
+              CEA_Reptile_amphib:
+                type: string
+                example: ''
+              CEA_Ruminants:
+                type: string
+                example: ''
+              CEA_Seafd:
+                type: string
+                example: ''
+              CEA_Sampled:
+                type: string
+                example: ''
+              CEA_Seafd_unck:
+                type: string
+                example: ''
+              CEA_Sewer_water:
+                type: string
+                example: 'NO'
+              CEA_Sick_contact:
+                type: string
+                example: ''
+              CEA_Sick_pet:
+                type: string
+                example: ''
+              CEA_Softcheese:
+                type: string
+                example: ''
+              CEA_Softcheese_raw:
+                type: string
+                example: ''
+              CEA_Spinach:
+                type: string
+                example: ''
+              CEA_Sprouts:
+                type: string
+                example: ''
+              CEA_Swim_treat:
+                type: string
+                example: 'NO'
+              CEA_Swim_untreat:
+                type: string
+                example: 'NO'
+              CEA_Tomatoes:
+                type: string
+                example: ''
+              CEA_Turkey:
+                type: string
+                example: ''
+              CEA_Turkey_grnd:
+                type: string
+                example: ''
+              CEA_Turkey_out:
+                type: string
+                example: ''
+              CEA_Watermelon:
+                type: string
+                example: ''
+              CEA_Well_water:
+                type: string
+                example: ''
+              County:
+                type: string
+                example: SAN FRANCISCO
+              CultCdc:
+                type: string
+                example: ''
+              CultClinic:
+                type: string
+                example: ''
+              CultSphl:
+                type: string
+                example: ''
+              Diarrhea:
+                type: string
+                example: 'YES'
+              DOB:
+                type: string
+                example: '1976-11-20'
+              DtEntered:
+                type: string
+                example: '2018-08-30'
+              DtOnset:
+                type: string
+                example: '2018-07-01'
+              DtRptComp:
+                type: string
+                example: '2018-09-25'
+              DtSpec:
+                type: string
+                example: '2018-07-06'
+              DxO157:
+                type: string
+                example: ''
+              DxO157TestType:
+                type: string
+                example: ''
+              EforsNum:
+                type: string
+                example: ''
+              Ethnicity:
+                type: string
+                example: H
+              Fever:
+                type: string
+                example: 'YES'
+              Hospital:
+                type: string
+                example: 'NO'
+              HospTrans:
+                type: string
+                example: ''
+              HUS:
+                type: string
+                example: ''
+              Immigrate:
+                type: string
+                example: 'NO'
+              Interview:
+                type: string
+                example: 'YES'
+              LabName:
+                type: string
+                example: SF059
+              LabNum:
+                type: string
+                example: ''
+              LocalID:
+                type: string
+                example: ''
+              OtherCDCTest:
+                type: string
+                example: NOT TESTED
+              OtherClinicTest:
+                type: string
+                example: NOT TESTED
+              OtherClinicTestType:
+                type: string
+                example: ''
+              OtherSphlTest:
+                type: string
+                example: NOT TESTED
+              OtherSphlTestType:
+                type: string
+                example: ''
+              Outbreak:
+                type: string
+                example: 'NO'
+              OutbrkStID:
+                type: string
+                example: ''
+              OutbrkType:
+                type: string
+                example: ''
+              Outcome:
+                type: string
+                example: ALIVE
+              OutFetal:
+                type: string
+                example: ''
+              Pathogen:
+                type: string
+                example: SHIGELLA
+              PatID:
+                type: string
+                example: 010000018
+              PcrCDC:
+                type: string
+                example: NOT TESTED
+              PcrClinic:
+                type: string
+                example: NOT TESTED
+              PCRClinicTestType:
+                type: string
+                example: ''
+              PcrSphl:
+                type: string
+                example: NOT TESTED
+              PcrSphlTestType:
+                type: string
+                example: ''
+              PersonID:
+                type: string
+                example: 010000018
+              Pregnant:
+                type: string
+                example: ''
+              Race:
+                type: string
+                example: O
+              ResultID:
+                type: string
+                example: 010000018-2-1
+              RptComp:
+                type: string
+                example: 'YES'
+              SalGroup:
+                type: string
+                example: ''
+              SentCDC:
+                type: string
+                example: 'NO'
+              SeroSite:
+                type: string
+                example: SONNEI
+              Sex:
+                type: string
+                example: M
+              SiteID:
+                type: string
+                example: CDA203
+              SLabsID:
+                type: string
+                example: M18F01789
+              SpeciesClinic:
+                type: string
+                example: ''
+              SpeciesSphl:
+                type: string
+                example: ''
+              SpecSite:
+                type: string
+                example: STOOL
+              State:
+                type: string
+                example: CA
+              StecH7:
+                type: string
+                example: ''
+              StecHAg:
+                type: string
+                example: ''
+              StecNM:
+                type: string
+                example: ''
+              StecO157:
+                type: string
+                example: ''
+              StecOAg:
+                type: string
+                example: ''
+              StecStx:
+                type: string
+                example: ''
+              StLabRcvd:
+                type: string
+                example: 'YES'
+              TravelDest:
+                type: string
+                example: ''
+              TravelInt:
+                type: string
+                example: 'NO'
+              WGS_ID:
+                type: string
+                example: ''
+              Zipcode:
+                type: string
+                example: 94102-
+              Except_ID:
+                type: number
+                example: 7035
+              Year:
+                type: number
+                example: 2018
+              Month:
+                type: number
+                example: 7
+              P:
+                type: string
+                example: SHIGELLA
+              BIO:
+                type: string
+                example: 'YES'
+              CX:
+                type: string
+                example: 'YES'
+              CIDT:
+                type: string
+                example: ''
+              CLINIC:
+                type: string
+                example: ''
+              PHL:
+                type: string
+                example: ''
+              CDC:
+                type: string
+                example: ''
+              FNcase:
+                type: string
+                example: CONFIRMED
+              PPV:
+                type: string
+                example: ''
+              TESTTYPE:
+                type: string
+                example: CX+
+              CDCCULT:
+                type: string
+                example: 'YES'
+              CULTPRIORITY:
+                type: number
+                example: 1
+              SubSpec:
+                type: string
+                example: SONNEI
+              Priority:
+                type: number
+                example: 6
+              CODE:
+                type: number
+                example: 1
+              BIO_CODE:
+                type: number
+                example: 1
+              STRCODE:
+                type: number
+                example: 1
+              H_SPEC:
+                type: string
+                example: '2018-07-06'
+              H_SPEC2:
+                type: string
+                example: '2018-07-06'
+              GROUP:
+                type: number
+                example: 1522
+              Tag:
+                type: number
+                example: 0
+              Status:
+                type: string
+                example: CASE
+              H_SPEC1:
+                type: string
+                example: '2018-07-06'
+              NC_Tag:
+                type: number
+                example: 1
+              PID1:
+                type: string
+                example: ''
+              PID2:
+                type: string
+                example: ''
+              NAME2:
+                type: string
+                example: ''
+              NC_Status:
+                type: string
+                example: CASE
+              H_SPEC3:
+                type: string
+                example: '2018-07-06'
+              H_SPEC4:
+                type: string
+                example: '2018-07-06'
+              H_PATH1:
+                type: string
+                example: SHIGELLA
+              CASEID:
+                type: string
+                example: CA-SHIGELLA-010000018-1976-11-20-M-SONNEI-1-6-2018-07-06-1
+              test:
+                type: string
+                example: testtestFoo!
+              AgeGroup:
+                type: string
+                example: 50-59
+              AgeGroupSort:
+                type: number
+                example: 7
+              meta data:
+                type: object
+                properties:
+                  pipeline:
+                    type: string
+                    example: eip-legacy-monthly
+                  program:
+                    type: string
+                    example: fdd-legacy
+                  Xform-Profile-Name:
+                    type: string
+                    example: otm2-fddProfile
+                  Xform-Profile-Version:
+                    type: string
+                    example: '0.01'
+                  Security Group:
+                    type: string
+                    example: CA-To be determined
+                  fileDateTime:
+                    type: string
+                    example: '2018-11-30T16:13:33.593Z'
+                  fileType:
+                    type: string
+                    example: What goes here?
+  /api/info/ping:
+    get:
+      summary: /api/info/ping
+      consumes:
+        - application/json
+      parameters: []
+      produces:
+        - text/html
+      responses:
+        '200':
+          description: returns a "Ok".
+          schema:
+            type: string
+            example: ok
+  /api/info/about:
+    get:
+      summary: /api/info/about
+      consumes:
+        - application/json
+      parameters: []
+      responses:
+        '200': 
+          description: About information.
+  /api/info/version:
+    get:
+      summary: /api/info/version
+      consumes:
+        - application/json
+      parameters: []
+      produces:
+        - text/html
+      responses:
+        '200':
+          description: version information
+          schema:
+            type: string
+            example: 'version: undefined'
+info:
+  title: docker_web_env3
+  version: 1.0.0
+  description: |-
+    [Specification for Jsonata transform service](/api-spec)
+
+    Node.js on Docker2

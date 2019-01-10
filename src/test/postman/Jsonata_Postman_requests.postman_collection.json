@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "8e4df805-79e5-4ce5-9c0b-6280a0417919",
+		"name": "Jsonata_Postman_requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "inputJson",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"Pat2\": \"\",\n  \"CULTURE\": 2,\n  \"PersonID2\": \"010000018\",\n  \"SpecSrce\": \"STOOL\",\n  \"CultureStatus\": \"CX+\",\n  \"STX\": \"\",\n  \"DISCORDANT\": \"\",\n  \"SEROTYPE\": \"SONNEI\",\n  \"SEROTYPESUMMARY\": \"SONNEI\",\n  \"Age\": 41.6235,\n  \"AgClinic\": \"NOT TESTED\",\n  \"AgClinicTestType\": \"\",\n  \"AgeYr\": 51,\n  \"AgSphl\": \"NOT TESTED\",\n  \"AgSphlTestType\": \"\",\n  \"AR_antacid_any\": \"YES\",\n  \"AR_antacid_any_1\": \"ROLAIDS\",\n  \"AR_antacid_any_2\": \"\",\n  \"AR_antacid_any_3\": \"\",\n  \"AR_antibiotic_use\": \"NO\",\n  \"AR_antibiotic_use_1\": \"\",\n  \"AR_antibiotic_use_2\": \"\",\n  \"AR_antibiotic_use_3\": \"\",\n  \"AR_antibiotic_use_4\": \"\",\n  \"AR_antibiotic_use_5\": \"\",\n  \"AR_antibiotic_use_6\": \"\",\n  \"AR_antibiotic_use_7\": \"\",\n  \"AR_antibiotic_use_8\": \"\",\n  \"AR_antibiotic_use30\": \"NO\",\n  \"AR_antibiotic_use30_1\": \"\",\n  \"AR_antibiotic_use30_2\": \"\",\n  \"AR_antibiotic_use30_3\": \"\",\n  \"AR_antibiotic_use30_4\": \"\",\n  \"AR_antibiotic_use30_5\": \"\",\n  \"AR_antibiotic_use30_6\": \"\",\n  \"AR_antibiotic_use30_7\": \"\",\n  \"AR_antibiotic_use30_8\": \"\",\n  \"AR_comorb_abdominal\": \"NO\",\n  \"AR_comorb_cancer\": \"NO\",\n  \"AR_comorb_diabetes\": \"NO\",\n  \"Ar_Diet_veal\": \"\",\n  \"AR_durationillness\": \"\",\n  \"AR_HHtrav6mo\": \"NO\",\n  \"AR_HHtrav6mo_country\": \"\",\n  \"AR_hosp_icu\": \"\",\n  \"AR_probiotic_use30\": \"NO\",\n  \"AR_travel6mo\": \"NO\",\n  \"AR_travel6mo_country\": \"\",\n  \"Audit\": \"NO\",\n  \"BioID\": \"YES\",\n  \"BloodyDiarr\": \"YES\",\n  \"CEA_Beef\": \"\",\n  \"CEA_Beef_grnd\": \"\",\n  \"CEA_Beef_out\": \"\",\n  \"CEA_Beef_unckgrnd\": \"\",\n  \"CEA_Berries\": \"\",\n  \"CEA_Bird\": \"\",\n  \"CEA_Cantaloupe\": \"\",\n  \"CEA_Cat\": \"\",\n  \"CEA_Chicken\": \"\",\n  \"CEA_Chx_fresh\": \"\",\n  \"CEA_Chx_frozen\": \"\",\n  \"CEA_Chx_grnd\": \"\",\n  \"CEA_Chx_out\": \"\",\n  \"CEA_Dairy\": \"\",\n  \"CEA_Dog\": \"\",\n  \"CEA_Eggs\": \"\",\n  \"CEA_Eggs_out\": \"\",\n  \"CEA_Eggs_unck\": \"\",\n  \"CEA_Farm_ranch\": \"\",\n  \"CEA_Fish\": \"\",\n  \"CEA_Fish_unck\": \"\",\n  \"CEA_Handle_raw_meat\": \"\",\n  \"CEA_Handle_raw_poultry\": \"\",\n  \"CEA_Handle_raw_seafood\": \"\",\n  \"CEA_Herbs\": \"\",\n  \"CEA_Lamb\": \"\",\n  \"CEA_Lettuce\": \"\",\n  \"CEA_Live_poultry\": \"\",\n  \"CEA_Liver_pate\": \"\",\n  \"CEA_Liver_raw\": \"\",\n  \"CEA_Milk_pasteurized\": \"\",\n  \"CEA_Milk_raw\": \"\",\n  \"CEA_Odairy_raw\": \"\",\n  \"CEA_Ountreat_water\": \"NO\",\n  \"CEA_Pig\": \"\",\n  \"CEA_Pocketpet\": \"\",\n  \"CEA_Pork\": \"\",\n  \"CEA_Raw_cider\": \"\",\n  \"CEA_Reptile_amphib\": \"\",\n  \"CEA_Ruminants\": \"\",\n  \"CEA_Seafd\": \"\",\n  \"CEA_Sampled\": \"\",\n  \"CEA_Seafd_unck\": \"\",\n  \"CEA_Sewer_water\": \"NO\",\n  \"CEA_Sick_contact\": \"\",\n  \"CEA_Sick_pet\": \"\",\n  \"CEA_Softcheese\": \"\",\n  \"CEA_Softcheese_raw\": \"\",\n  \"CEA_Spinach\": \"\",\n  \"CEA_Sprouts\": \"\",\n  \"CEA_Swim_treat\": \"NO\",\n  \"CEA_Swim_untreat\": \"NO\",\n  \"CEA_Tomatoes\": \"\",\n  \"CEA_Turkey\": \"\",\n  \"CEA_Turkey_grnd\": \"\",\n  \"CEA_Turkey_out\": \"\",\n  \"CEA_Watermelon\": \"\",\n  \"CEA_Well_water\": \"\",\n  \"County\": \"SAN FRANCISCO\",\n  \"CultCdc\": \"\",\n  \"CultClinic\": \"\",\n  \"CultSphl\": \"\",\n  \"Diarrhea\": \"YES\",\n  \"DOB\": \"1976-11-20\",\n  \"DtEntered\": \"2018-08-30\",\n  \"DtOnset\": \"2018-07-01\",\n  \"DtRptComp\": \"2018-09-25\",\n  \"DtSpec\": \"2018-07-06\",\n  \"DxO157\": \"\",\n  \"DxO157TestType\": \"\",\n  \"EforsNum\": \"\",\n  \"Ethnicity\": \"H\",\n  \"Fever\": \"YES\",\n  \"Hospital\": \"NO\",\n  \"HospTrans\": \"\",\n  \"HUS\": \"\",\n  \"Immigrate\": \"NO\",\n  \"Interview\": \"YES\",\n  \"LabName\": \"SF059\",\n  \"LabNum\": \"\",\n  \"LocalID\": \"\",\n  \"OtherCDCTest\": \"NOT TESTED\",\n  \"OtherClinicTest\": \"NOT TESTED\",\n  \"OtherClinicTestType\": \"\",\n  \"OtherSphlTest\": \"NOT TESTED\",\n  \"OtherSphlTestType\": \"\",\n  \"Outbreak\": \"NO\",\n  \"OutbrkStID\": \"\",\n  \"OutbrkType\": \"\",\n  \"Outcome\": \"ALIVE\",\n  \"OutFetal\": \"\",\n  \"Pathogen\": \"SHIGELLA\",\n  \"PatID\": \"010000018\",\n  \"PcrCDC\": \"NOT TESTED\",\n  \"PcrClinic\": \"NOT TESTED\",\n  \"PCRClinicTestType\": \"\",\n  \"PcrSphl\": \"NOT TESTED\",\n  \"PcrSphlTestType\": \"\",\n  \"PersonID\": \"010000018\",\n  \"Pregnant\": \"\",\n  \"Race\": \"O\",\n  \"ResultID\": \"010000018-2-1\",\n  \"RptComp\": \"YES\",\n  \"SalGroup\": \"\",\n  \"SentCDC\": \"NO\",\n  \"SeroSite\": \"SONNEI\",\n  \"Sex\": \"M\",\n  \"SiteID\": \"CDA203\",\n  \"SLabsID\": \"M18F01789\",\n  \"SpeciesClinic\": \"\",\n  \"SpeciesSphl\": \"\",\n  \"SpecSite\": \"STOOL\",\n  \"State\": \"CA\",\n  \"StecH7\": \"\",\n  \"StecHAg\": \"\",\n  \"StecNM\": \"\",\n  \"StecO157\": \"\",\n  \"StecOAg\": \"\",\n  \"StecStx\": \"\",\n  \"StLabRcvd\": \"YES\",\n  \"TravelDest\": \"\",\n  \"TravelInt\": \"NO\",\n  \"WGS_ID\": \"\",\n  \"Zipcode\": \"94102-\",\n  \"Except_ID\": 7035,\n  \"Year\": 2018,\n  \"Month\": 7,\n  \"P\": \"SHIGELLA\",\n  \"BIO\": \"YES\",\n  \"CX\": \"YES\",\n  \"CIDT\": \"\",\n  \"CLINIC\": \"\",\n  \"PHL\": \"\",\n  \"CDC\": \"\",\n  \"FNcase\": \"CONFIRMED\",\n  \"PPV\": \"\",\n  \"TESTTYPE\": \"CX+\",\n  \"CDCCULT\": \"YES\",\n  \"CULTPRIORITY\": 1,\n  \"SubSpec\": \"SONNEI\",\n  \"Priority\": 6,\n  \"CODE\": 1,\n  \"BIO_CODE\": 1,\n  \"STRCODE\": 1,\n  \"H_SPEC\": \"2018-07-06\",\n  \"H_SPEC2\": \"2018-07-06\",\n  \"GROUP\": 1522,\n  \"Tag\": 0,\n  \"Status\": \"CASE\",\n  \"H_SPEC1\": \"2018-07-06\",\n  \"NC_Tag\": 1,\n  \"PID1\": \"\",\n  \"PID2\": \"\",\n  \"NAME2\": \"\",\n  \"NC_Status\": \"CASE\",\n  \"H_SPEC3\": \"2018-07-06\",\n  \"H_SPEC4\": \"2018-07-06\",\n  \"H_PATH1\": \"SHIGELLA\"\n}"
+				},
+				"url": {
+					"raw": "{{SERVER_URL}}:10005/api/inputJson/",
+					"host": [
+						"{{SERVER_URL}}"
+					],
+					"port": "10005",
+					"path": [
+						"api",
+						"inputJson",
+						""
+					]
+				},
+				"description": "input json to be processed."
+			},
+			"response": []
+		},
+		{
+			"name": "jsonata",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "text/plain"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "$merge \n( [$,\n\n{\n              \"CASEID\":(\n              $CASEID:=  function ($a, $b, $c,$d, $e, $f, $g, $h, $i, $j)\n                      { $a &'-'& $b &'-'& $c &'-'& $d &'-'& $e &'-'& $f &'-'& $g &'-'& $h &'-'& $i &'-'& $j } ;\n              $CASEID($.State,$.Pathogen,$.PersonID,$.DOB,$.Sex,$.SubSpec,$.CULTPRIORITY,$.Priority,$.DtSpec,$.STRCODE);\n                       ),\n                       \"test\": \"testtestFoo!\",\n            \"AgeGroup\":($.AgeYr < 5 ? \"1-4\" : \n                       ($.AgeYr < 10 ? \"5-9\" : \n                       ($.AgeYr < 20 ? \"10-19\" :\n                       ($.AgeYr < 30 ? \"20-29\" :\n                       ($.AgeYr < 40 ? \"30-39\" :\n                       ($.AgeYr < 50 ? \"40-49\" :\n                       ($.AgeYr < 60 ? \"50-59\" :\n                       ($.AgeYr < 70 ? \"60-69\" :\n                       ($.AgeYr < 80 ? \"70-79\" :\n                       ($.AgeYr >= 80 ? \"80+\" :\n                        \"Unknown\"\n                        )))))))))),\n                        \n            \"AgeGroupSort\":\n                 (\n                 $sort:= \n                   ($.AgeYr < 5 ? \"1-4\" : \n                       ($.AgeYr < 10 ? \"5-9\" : \n                       ($.AgeYr < 20 ? \"10-19\" :\n                       ($.AgeYr < 30 ? \"20-29\" :\n                       ($.AgeYr < 40 ? \"30-39\" :\n                       ($.AgeYr < 50 ? \"40-49\" :\n                       ($.AgeYr < 60 ? \"50-59\" :\n                       ($.AgeYr < 70 ? \"60-69\" :\n                       ($.AgeYr < 80 ? \"70-79\" :\n                       ($.AgeYr >= 80 ? \"80+\" :\n                        \"Unknown\"\n                        )))))))))\n                   );     \n            $sort = \"1-4\" ? 1 : $sort= \"5-9\" ? 2 : $sort= \"10-19\" ?  3 : $sort= \"20-29\" ? 4 : $sort = \"30-39\" ? 5 :\n            $sort = \"40-49\" ? 6 : $sort = \"50-59\" ? 7 : $sort = \"60-69\" ? 8 : $sort = \"70-79\" ? 9 : $sort = \"80+\" ? 10 :\n            100\n                  ),\n                  \n          \"meta data\": \n                            {\n                      \"pipeline\": \"eip-legacy-monthly\",\n                      \"program\": \"fdd-legacy\",\n                      \"Xform-Profile-Name\": \"otm2-fddProfile\",\n                      \"Xform-Profile-Version\": \"0.01\",\n                      \"Security Group\": $.State & '-'& \"To be determined\",\n                      \"fileDateTime\": \"2018-11-30T16:13:33.593Z\",\n                      \"fileType\":\"What goes here?\"\n                            }\n            \n  }] )\n  \n  \n  "
+				},
+				"url": {
+					"raw": "{{SERVER_URL}}:10005/api/jsonata?jsonataid=F478C0B5-0481-4391-9946-258D34A3EC6A&jsonatadesc=test 2",
+					"host": [
+						"{{SERVER_URL}}"
+					],
+					"port": "10005",
+					"path": [
+						"api",
+						"jsonata"
+					],
+					"query": [
+						{
+							"key": "jsonataid",
+							"value": "F478C0B5-0481-4391-9946-258D34A3EC6A",
+							"description": "test"
+						},
+						{
+							"key": "jsonatadesc",
+							"value": "test 2",
+							"description": "test3"
+						}
+					]
+				},
+				"description": "add jsonata transform script."
+			},
+			"response": []
+		},
+		{
+			"name": "Result",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{SERVER_URL}}:10005/api/result/?jsonataidnum=4",
+					"host": [
+						"{{SERVER_URL}}"
+					],
+					"port": "10005",
+					"path": [
+						"api",
+						"result",
+						""
+					],
+					"query": [
+						{
+							"key": "jsonataidnum",
+							"value": "4"
+						}
+					]
+				},
+				"description": "Get Result of transform."
+			},
+			"response": []
+		},
+		{
+			"name": "List",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{SERVER_URL}}:10005/api/jsonata/list",
+					"host": [
+						"{{SERVER_URL}}"
+					],
+					"port": "10005",
+					"path": [
+						"api",
+						"jsonata",
+						"list"
+					]
+				},
+				"description": "get list of transforms that have been added."
+			},
+			"response": []
+		}
+	]
+}

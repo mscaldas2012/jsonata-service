@@ -1,0 +1,55 @@
+$merge 
+( [$,
+
+{
+              "CASEID":(
+              $CASEID:=  function ($a, $b, $c,$d, $e, $f, $g, $h, $i, $j)
+                      { $a &'-'& $b &'-'& $c &'-'& $d &'-'& $e &'-'& $f &'-'& $g &'-'& $h &'-'& $i &'-'& $j } ;
+              $CASEID($.State,$.Pathogen,$.PersonID,$.DOB,$.Sex,$.SubSpec,$.CULTPRIORITY,$.Priority,$.DtSpec,$.STRCODE);
+                       ),
+                       
+            "AgeGroup":($.AgeYr < 5 ? "1-4" : 
+                       ($.AgeYr < 10 ? "5-9" : 
+                       ($.AgeYr < 20 ? "10-19" :
+                       ($.AgeYr < 30 ? "20-29" :
+                       ($.AgeYr < 40 ? "30-39" :
+                       ($.AgeYr < 50 ? "40-49" :
+                       ($.AgeYr < 60 ? "50-59" :
+                       ($.AgeYr < 70 ? "60-69" :
+                       ($.AgeYr < 80 ? "70-79" :
+                       ($.AgeYr >= 80 ? "80+" :
+                        "Unknown"
+                        )))))))))),
+                        
+            "AgeGroupSort":
+                 (
+                 $sort:= 
+                   ($.AgeYr < 5 ? "1-4" : 
+                       ($.AgeYr < 10 ? "5-9" : 
+                       ($.AgeYr < 20 ? "10-19" :
+                       ($.AgeYr < 30 ? "20-29" :
+                       ($.AgeYr < 40 ? "30-39" :
+                       ($.AgeYr < 50 ? "40-49" :
+                       ($.AgeYr < 60 ? "50-59" :
+                       ($.AgeYr < 70 ? "60-69" :
+                       ($.AgeYr < 80 ? "70-79" :
+                       ($.AgeYr >= 80 ? "80+" :
+                        "Unknown"
+                        )))))))))
+                   );     
+            $sort = "1-4" ? 1 : $sort= "5-9" ? 2 : $sort= "10-19" ?  3 : $sort= "20-29" ? 4 : $sort = "30-39" ? 5 :
+            $sort = "40-49" ? 6 : $sort = "50-59" ? 7 : $sort = "60-69" ? 8 : $sort = "70-79" ? 9 : $sort = "80+" ? 10 :
+            100
+                  ),
+                  
+          "meta data": 
+                            {"test": "this is a test",
+                      "pipeline": "eip-legacy-monthly",
+                      "program": "fdd-legacy",
+                      "Security Group": $.State & '-'& "To be determined",
+                      "fileDateTime": "2018-11-30T16:13:33.593Z",
+                      "fileType":"What goes here?"
+                            }
+            
+  }] )
+  

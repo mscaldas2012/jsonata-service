@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "should": "^7.1.0",
+    "sonarqube-scanner": "^2.4.0",
     "supertest": "^1.0.0"
   },
   "scripts": {
